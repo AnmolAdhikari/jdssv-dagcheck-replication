@@ -1,0 +1,12 @@
+{
+  "title": "jdssv-dagcheck-replication: code and data for \"Exploratory Diagnostics for Optimisation in Continuous Causal Structure Learning: When Stability Conceals Solver Failure\"",
+  "upload_type": "software",
+  "description": "The dagcheck Python package and the full replication materials (analysis scripts, results, and data) for the paper \"Exploratory Diagnostics for Optimisation in Continuous Causal Structure Learning: When Stability Conceals Solver Failure\", submitted to the Journal of Data Science, Statistics, and Visualisation (JDSSV).",
+  "creators": [
+    {"name": "Adhikari, Anmol", "affiliation": "Noida International University"},
+    {"name": "Tiwari, Gagan", "affiliation": "Noida International University"}
+  ],
+  "license": "MIT",
+  "keywords": ["causal structure learning", "NOTEARS", "optimisation diagnostics", "exploratory data analysis", "DAG"],
+  "access_right": "open"
+}
