@@ -1,0 +1,134 @@
+{
+ "B": 100,
+ "lambda_grid": [
+  0.01,
+  0.05,
+  0.15,
+  0.3
+ ],
+ "tau_grid": [
+  0.02,
+  0.08,
+  0.2
+ ],
+ "n_reps_ground_truth": 10,
+ "settings": [
+  {
+   "label": "d=5, sparse, n=100",
+   "d": 5,
+   "n_edges": 5,
+   "n": 100
+  },
+  {
+   "label": "d=8, sparse, n=100",
+   "d": 8,
+   "n_edges": 8,
+   "n": 100
+  },
+  {
+   "label": "d=8, dense, n=100",
+   "d": 8,
+   "n_edges": 16,
+   "n": 100
+  },
+  {
+   "label": "d=8, sparse, n=50",
+   "d": 8,
+   "n_edges": 8,
+   "n": 50
+  },
+  {
+   "label": "d=8, sparse, n=500",
+   "d": 8,
+   "n_edges": 8,
+   "n": 500
+  },
+  {
+   "label": "d=15, sparse, n=100",
+   "d": 15,
+   "n_edges": 15,
+   "n": 100
+  }
+ ],
+ "results": {
+  "d=5, sparse, n=100|legacy": {
+   "bootstrap_modal_share": 1.0,
+   "self_compatibility": 1.0,
+   "hyperparameter_modal_share": 0.75,
+   "ground_truth_tpr": 0.0
+  },
+  "d=5, sparse, n=100|corrected": {
+   "bootstrap_modal_share": 0.14,
+   "self_compatibility": 0.7,
+   "hyperparameter_modal_share": 0.25,
+   "ground_truth_tpr": 0.28
+  },
+  "d=8, sparse, n=100|legacy": {
+   "bootstrap_modal_share": 1.0,
+   "self_compatibility": 1.0,
+   "hyperparameter_modal_share": 0.75,
+   "ground_truth_tpr": 0.0
+  },
+  "d=8, sparse, n=100|corrected": {
+   "bootstrap_modal_share": 0.08,
+   "self_compatibility": 0.6886408730158731,
+   "hyperparameter_modal_share": 0.16666666666666666,
+   "ground_truth_tpr": 0.4125
+  },
+  "d=8, dense, n=100|legacy": {
+   "bootstrap_modal_share": 1.0,
+   "self_compatibility": 1.0,
+   "hyperparameter_modal_share": 0.8333333333333334,
+   "ground_truth_tpr": 0.0
+  },
+  "d=8, dense, n=100|corrected": {
+   "bootstrap_modal_share": 0.16,
+   "self_compatibility": 0.8090277777777778,
+   "hyperparameter_modal_share": 0.16666666666666666,
+   "ground_truth_tpr": 0.1875
+  },
+  "d=8, sparse, n=50|legacy": {
+   "bootstrap_modal_share": 1.0,
+   "self_compatibility": 1.0,
+   "hyperparameter_modal_share": 0.75,
+   "ground_truth_tpr": 0.0
+  },
+  "d=8, sparse, n=50|corrected": {
+   "bootstrap_modal_share": 0.03,
+   "self_compatibility": 0.44722048784548785,
+   "hyperparameter_modal_share": 0.16666666666666666,
+   "ground_truth_tpr": 0.45
+  },
+  "d=8, sparse, n=500|legacy": {
+   "bootstrap_modal_share": 1.0,
+   "self_compatibility": 1.0,
+   "hyperparameter_modal_share": 0.6666666666666666,
+   "ground_truth_tpr": 0.0
+  },
+  "d=8, sparse, n=500|corrected": {
+   "bootstrap_modal_share": 0.55,
+   "self_compatibility": 0.5656926406926407,
+   "hyperparameter_modal_share": 0.08333333333333333,
+   "ground_truth_tpr": 0.4375
+  },
+  "d=15, sparse, n=100|legacy": {
+   "bootstrap_modal_share": 1.0,
+   "self_compatibility": 1.0,
+   "hyperparameter_modal_share": 0.75,
+   "ground_truth_tpr": 0.0
+  },
+  "d=15, sparse, n=100|corrected": {
+   "bootstrap_modal_share": 0.01,
+   "self_compatibility": 0.824393917865785,
+   "hyperparameter_modal_share": 0.16666666666666666,
+   "ground_truth_tpr": 0.4600000000000001
+  }
+ },
+ "legacy_wins_or_ties": {
+  "bootstrap_modal_share": 6,
+  "self_compatibility": 6,
+  "hyperparameter_modal_share": 6
+ },
+ "corrected_wins_ground_truth": 6,
+ "n_settings": 6
+}

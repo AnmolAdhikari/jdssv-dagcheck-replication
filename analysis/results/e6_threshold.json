@@ -1,0 +1,172 @@
+{
+ "taus": [
+  0.005,
+  0.01,
+  0.02,
+  0.05,
+  0.08,
+  0.15
+ ],
+ "B": 300,
+ "lambda_grid": [
+  0.01,
+  0.05,
+  0.15,
+  0.3
+ ],
+ "n_reps_ground_truth": 15,
+ "results": {
+  "legacy": [
+   {
+    "tau": 0.005,
+    "n_edges_point_estimate": 4,
+    "bootstrap_modal_share": 0.06,
+    "self_compatibility": 0.27529761904761907,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.18333333333333332,
+    "mean_fdr": 0.48095238095238096
+   },
+   {
+    "tau": 0.01,
+    "n_edges_point_estimate": 2,
+    "bootstrap_modal_share": 0.17,
+    "self_compatibility": 0.0625,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.06666666666666667,
+    "mean_fdr": 0.24761904761904763
+   },
+   {
+    "tau": 0.02,
+    "n_edges_point_estimate": 1,
+    "bootstrap_modal_share": 0.43666666666666665,
+    "self_compatibility": 0.125,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.025,
+    "mean_fdr": 0.18666666666666665
+   },
+   {
+    "tau": 0.05,
+    "n_edges_point_estimate": 0,
+    "bootstrap_modal_share": 0.81,
+    "self_compatibility": 0.875,
+    "hyperparameter_modal_share": 0.5,
+    "mean_tpr": 0.008333333333333333,
+    "mean_fdr": 0.0
+   },
+   {
+    "tau": 0.08,
+    "n_edges_point_estimate": 0,
+    "bootstrap_modal_share": 1.0,
+    "self_compatibility": 1.0,
+    "hyperparameter_modal_share": 0.75,
+    "mean_tpr": 0.0,
+    "mean_fdr": 0.0
+   },
+   {
+    "tau": 0.15,
+    "n_edges_point_estimate": 0,
+    "bootstrap_modal_share": 1.0,
+    "self_compatibility": 1.0,
+    "hyperparameter_modal_share": 1.0,
+    "mean_tpr": 0.0,
+    "mean_fdr": 0.0
+   }
+  ],
+  "corrected": [
+   {
+    "tau": 0.005,
+    "n_edges_point_estimate": 19,
+    "bootstrap_modal_share": 0.0033333333333333335,
+    "self_compatibility": 0.7057764603817236,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.4083333333333333,
+    "mean_fdr": 0.6967848817848817
+   },
+   {
+    "tau": 0.01,
+    "n_edges_point_estimate": 18,
+    "bootstrap_modal_share": 0.0033333333333333335,
+    "self_compatibility": 0.6956694271911663,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.4083333333333333,
+    "mean_fdr": 0.6925291375291374
+   },
+   {
+    "tau": 0.02,
+    "n_edges_point_estimate": 16,
+    "bootstrap_modal_share": 0.0033333333333333335,
+    "self_compatibility": 0.6514331256978316,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.4083333333333333,
+    "mean_fdr": 0.6814232064232063
+   },
+   {
+    "tau": 0.05,
+    "n_edges_point_estimate": 16,
+    "bootstrap_modal_share": 0.0033333333333333335,
+    "self_compatibility": 0.6788175366300366,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.4,
+    "mean_fdr": 0.6652525252525251
+   },
+   {
+    "tau": 0.08,
+    "n_edges_point_estimate": 15,
+    "bootstrap_modal_share": 0.0033333333333333335,
+    "self_compatibility": 0.7019736842105263,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.38333333333333336,
+    "mean_fdr": 0.6549206349206348
+   },
+   {
+    "tau": 0.15,
+    "n_edges_point_estimate": 8,
+    "bootstrap_modal_share": 0.0033333333333333335,
+    "self_compatibility": 0.5749053030303031,
+    "hyperparameter_modal_share": 0.25,
+    "mean_tpr": 0.35833333333333334,
+    "mean_fdr": 0.6250000000000001
+   }
+  ]
+ },
+ "legacy_wins_by_tau": {
+  "0.005": {
+   "bootstrap_modal_share": true,
+   "self_compatibility": false,
+   "hyperparameter_modal_share": true
+  },
+  "0.01": {
+   "bootstrap_modal_share": true,
+   "self_compatibility": false,
+   "hyperparameter_modal_share": true
+  },
+  "0.02": {
+   "bootstrap_modal_share": true,
+   "self_compatibility": false,
+   "hyperparameter_modal_share": true
+  },
+  "0.05": {
+   "bootstrap_modal_share": true,
+   "self_compatibility": true,
+   "hyperparameter_modal_share": true
+  },
+  "0.08": {
+   "bootstrap_modal_share": true,
+   "self_compatibility": true,
+   "hyperparameter_modal_share": true
+  },
+  "0.15": {
+   "bootstrap_modal_share": true,
+   "self_compatibility": true,
+   "hyperparameter_modal_share": true
+  }
+ },
+ "legacy_always_empty_by_tau": {
+  "0.005": false,
+  "0.01": false,
+  "0.02": false,
+  "0.05": true,
+  "0.08": true,
+  "0.15": true
+ }
+}
